@@ -1,0 +1,22 @@
+Example project - compact secure disk
+
+Develop a C program that works as a compact secure disk allowing users to store compressed and password protected files in one specific directory. The user may pass a document to the program, which encrypts the documents using a master password. The encrypted document is then compressed and stored in a directory. When required the user can decompress and decrypt the files through the program. The program may be able to batch process the tasks using command line arguments and/or work interactively. It may also come with an advanced search feature that looks for a specific keyword within an encrypted and compressed file.
+
+This is only one example, and students are encouraged to find their own data compression and/or encryption problems for this project.
+
+Compression techniques to consider - Run Length Encoding (Links to an external site.) (relatively easy, but sufficient to meet the compression requirement of the assignment),  Huffman coding (Links to an external site.) (not easy to implement - only suitable for experienced programmers) and etc.
+Encryption techniques to consider - Substitution ciper (Links to an external site.), XOR ciper (Links to an external site.) and etc.
+You could even create your own compression and/or encryption algorithm. Or you could implement multiple algorithms and allow user to pick one.
+
+NOTE: Unlike the assignment, the group project is open ended. You are free to add your own features to the program as you see fit. You will not get a template source file.
+
+ 
+
+Example project - image encryption program
+Develop a C program that maintains a repository of images encrypted using a password. The program is capable of decrypting the images correctly if the user enters the correct password. The program takes any BMP image and produce an encrypted version of the image as follows:
+
+group-project-image-encryption.png  
+
+The program has a list of recently encrypted image file names for user convenience, implemented using Queue data structure. Also the program is capable of searching through all files in the image repository. The user may enter a part of the file name and request the program to search for any files matching the search. The program also has the feature to run in a quiet mode. In the quiet mode, the user can encrypt several images by typing the file names directly into the command line separated by spaces. In this quiet (batch) mode the program does not prompt the user to enter any inputs while the program is running, however displays messages indicating the progress.
+
+This is only another example. You are encouraged to find their own customer requirements, but you are free to be inspired by the given examples. The encryption in this example could use the same techniques discussed in the previous example.

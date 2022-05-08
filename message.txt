@@ -1,0 +1,26 @@
+Description
+In this research-inspired project, students will work together in teams to develop a professional grade program that manipulates real-world data. You will develop team working skills, project management skills and communication skills.
+
+Put yourself in the position of a C programmer working in a company as a team. Your task is to find a customer with a real-world data manipulation need that involves data compression and/or encryption. Your customer could be someone from industry, your parents/siblings, a friend, or even yourself. The customer requirement you find MUST have at least a component of compression or encryption. If you are trying to pass pick either a compression or encryption problem, but if you are trying to get a high mark try to do both. If you are trying to get even higher marks, implement additional algorithms such as sorting and searching as specified in the "Marking Criteria" section.
+
+Once you find a customer and an appropriate problem you will work together as a team to develop a C program that solves the problem you found. The best way to develop as a group is to breakdown the task into small functions and assign functions to each team member. So that all team members can develop at home, and use the laboratory time to integrate the code.
+
+If you are only trying to pass, it is sufficient to integrate the code from all team members into one program that can be compiled the way that we have been doing whole semester. But if you are aiming to achieve high marks, you will need to develop your own library (as a header file), have different runtime modes of the program (using command line parsing), and develop makefiles. You may also provide a debugging mode in your code using preprocessor directives for high marks.
+
+Only if you are trying to get high marks you also have to demonstrate that you can use advanced data structures such as linked lists, queues, etc, as specified in the Marking Criteria section - students only trying to pass can stick to simple data structures such as struct and arrays. Read the Marking Criteria section to fully understand the expectations depending on the levels that you want to achieve.
+
+One important requirement is that you are free to use any of the following standard C libraries ONLY - stdio, stdlib, string and math. This will help you pick a reasonable scope for the project. If you develop your own libraries of course you can use them. However, you must NOT use any other libraries that come with GCC or developed by other programmers. You may get 0 marks for your source code if you fail to follow this requirement.
+
+You will go through the software development cycle as follows:
+
+Problem requirement
+Students must meet potential clients and find out a real-world data manipulation need that involves data compression and/or encryption.
+
+Problem analysis
+Identify the inputs, outputs and required resources. Break down the data manipulation task to small functions. Think about features you want to add to the program. Start writing parts of the project report - read the submission requirements to understand what should be included in the report.
+
+Solution design
+Develop simple algorithms to achieve the objectives of each function. Develop the program design - single file, or custom C library? Consider a (fairly) user friendly interface.
+
+Implement and test
+Do research and learn a simple encryption and/or compression algorithms. Implement one function at a time, and test every single function as you develop. Complete writing the project report.
